@@ -119,7 +119,7 @@ nav a {
 
 .attraction-card img {
   width: 100%;
-  height: 300px;
+  height: 200px;
   border-radius: 7px;
 }
 
@@ -201,13 +201,13 @@ textarea.form-input {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hero h2 {
-    font-size: 2rem;
+    font-size: 35px;
   }
 
   .subheading {
-    font-size: 1.2rem;
+    font-size: 20px;
   }
 
   .attraction-card {
@@ -217,4 +217,27 @@ textarea.form-input {
   .contact-form {
     padding: 0 1rem;
   }
+
+  .navv {
+    font-size: 9px;
+  }
+
+  .logo {
+    font-size: 13px;
+  }
+
+  .attraction-card img {
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+  }
 }
+
+/* @media (max-width: 900px) {
+    .attraction-card img {
+      width: 100%;
+      height: 700px;
+      border-radius: 7px;
+    }
+  } */
