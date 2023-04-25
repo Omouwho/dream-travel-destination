@@ -2,7 +2,6 @@
 body,
 figure,
 h1,
-h2,
 h3,
 p,
 ul {
@@ -27,6 +26,8 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #333;
+  text-decoration: none;
 }
 
 nav ul {
@@ -45,7 +46,7 @@ nav a {
 
 /* Hero section */
 .hero {
-  background-image: url(/assets/img/bali.jpg);
+  background-image: url(/assets/img/bali2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -57,36 +58,76 @@ nav a {
 }
 
 .hero h2 {
-  font-size: 3rem;
   color: #fff;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
 }
 
 .subheading {
-  font-size: 1.5rem;
+  font-size: 40px;
   color: #fff;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .cta-button {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background-color: #ffcc00;
-  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
+  color: #272044;
+  padding: 20px 40px;
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 11px;
+  border-radius: 7px;
   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #ffdb58;
+  background: #4275b2;
+  text-decoration: none;
+  color: white;
 }
 
 /* About section */
 #about {
   padding: 3rem;
   background-color: #f9f9f9;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+.about-header2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
 }
 
 .description {
@@ -97,11 +138,20 @@ nav a {
 .about-image {
   width: 100%;
   margin-top: 2rem;
+  display: block;
 }
 
 /* Attractions section */
 #attractions {
   padding: 3rem;
+}
+
+#attractions h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
 }
 
 .attraction-cards {
@@ -119,7 +169,7 @@ nav a {
 
 .attraction-card img {
   width: 100%;
-  height: 250px;
+  height: 224px;
   border-radius: 7px;
 }
 
@@ -130,6 +180,47 @@ nav a {
 
 .attraction-card p {
   margin-top: 0.5rem;
+}
+
+/* gallery section */
+.gallery-cards {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery-card img {
+  width: 500px;
+  height: 350px;
+  border-radius: 7px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* .gallery-card img:hover {
+  opacity: 0.8;
+} */
+
+.zoom {
+  transition: transform 0.5s; /* Animation */
+  /* margin: 0 auto; */
+}
+
+.zoom:hover {
+  transform: scale(0.9);
+}
+
+.gallery-0 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+.gallery-1 {
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 /* Contact section */
@@ -175,8 +266,8 @@ textarea.form-input {
   display: block;
   border: 1px solid #333;
   padding: 1rem 2rem;
-  background-color: #ffcc00;
-  color: #333;
+  background-color: #4275b2;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -186,11 +277,12 @@ textarea.form-input {
 }
 
 .submit-button:hover {
-  background-color: #ffdb58;
+  background-color: #fff;
+  color: #4275b2;
 }
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: #f9f9f9;
   padding: 1rem;
   text-align: center;
@@ -198,6 +290,49 @@ textarea.form-input {
 
 .footer p {
   font-size: 0.8rem;
+} */
+
+footer {
+  color: black;
+  background-color: #b6d1f2;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: blue;
+  opacity: 0.7;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.footer-section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
 }
 
 /* Media queries */
@@ -241,3 +376,32 @@ textarea.form-input {
       border-radius: 7px;
     }
   } */
+/* @media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+} */

@@ -23,40 +23,59 @@
 
 <body>
 
-  <header>
-    <h1 class="logo">Bali, Indonesia</h1>
+  <!-- Header -->
+  <header class="fixed-top">
+    <h1><a href="#home" class="logo">Bali, Indonesia</a></h1>
     <nav class="navv">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Bali</a></li>
         <li><a href="#attractions">Attractions</a></li>
-        <!-- <li><a href="#activities">Activities</a></li> -->
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Hero  Section -->
   <section id="home">
 
     <div class="hero">
-      <h2>Your Tropical Paradise</h2>
-      <p class="subheading">Experience the Beauty of Bali</p>
-      <a href="#contact" class="cta-button">Lets Visit Bali</a>
+      <h2>Welcome to Bali</h2>
+      <p class="subheading">Your Tropical Paradise</p>
+      <marquee behavior="" direction="" class="text-white">Promise yourself that one day you will wake up in Bali.
+      </marquee>
+      <a href="https://bali.com/" target="_blank">
+        <button class="btn w-100 cta-button">Lets Visit Bali</button>
+      </a>
+      <!-- <a href="#contact" class="cta-button">Lets Visit Bali</a> -->
     </div>
   </section>
 
+  <!-- About Section -->
   <section id="about">
 
     <div class="container">
-      <h2>About Bali</h2>
-      <p class="description">Bali is a tropical paradise located in Indonesia, known for its stunning beaches, lush
-        landscapes, vibrant culture, and warm hospitality. It's a dream destination for beach lovers, surfers,
-        adventure seekers, and those seeking a peaceful getaway.</p>
+      <h2 class="about-header">Why Bali?</h2>
+      <h3 class="about-header2">Bali, The Land of the Gods</h3>
+      <p class="about-description">Bali is a tropical paradise located in Indonesia, known for its stunning beaches,
+        lush landscapes, vibrant culture, and warm hospitality. It's a dream destination for beach lovers, surfers,
+        adventure seekers, and those seeking a peaceful getaway. There is no other place like Bali in this world. It is
+        a magical blend of culture, people, nature, activities, weather, culinary delights, nightlife, and beautiful
+        accommodation. </p>
+      <br>
+      <p class="about-description">
+        Bali is rated as one of the best travel destinations in the world by countless websites, review
+        portals, and travel magazines each year – for very good reasons. Whatever your age, background, budget or
+        interest, there is something great for everyone to explore and discover. And that’s a promise.
+      </p>
+
       <img src="/assets/img/hero.jpg" alt="Bali, Indonesia" class="about-image">
   </section>
 
+
+  <!-- Attractions Section -->
   <section id="attractions">
-    <h2>Must-Visit Attractions</h2>
+    <h2>Places I would love to Visit</h2>
     <div class="attraction-cards">
       <div class="attraction-card">
         <img src="/assets/img/attraction1.jpg" alt="Attraction 1">
@@ -106,23 +125,46 @@
     </div>
   </section>
 
-  <!-- <section id="activities">
-    <h2>Exciting Activities</h2>
-    <ul class="activity-list">
-      <li><i class="fas fa-check"></i> Surfing at Kuta Beach</li>
-      <li><i class="fas fa-check"></i> Scuba Diving in Nusa Penida</li>
-      <li><i class="fas fa-check"></i> Trekking to Mount Batur</li>
-      <li><i class="fas fa-check"></i> Waterfall Hopping in Munduk</li>
-      <li><i class="fas fa-check"></i> Balinese Cooking Class</li><i class="fas fa-check"></i> Yoga and
-      Meditation Retreat in Ubud
-      <li><i class="fas fa-check"></i> Beach Hopping in Seminyak</li>
-      <li><i class="fas fa-check"></i> Snorkeling in Amed</li>
-    </ul>
-  </section> -->
 
+  <!-- Gallery section -->
+  <div id="gallery">
+
+    <h3 class="text-center mb-3 gallery-0">More photos from Bali</h3>
+
+    <div class="gallery-cards">
+
+      <div class="gallery-card">
+        <img src="/assets/img/gallery1.jpg " class="zoom" alt="Gallery 1">
+        <h3 class="text-center gallery-1">The cave-like jacuzzi at Tjampuhan Hotel & Spa – Ubud</h3>
+      </div>
+
+
+      <div class="gallery-card">
+        <img src="/assets/img/gallery2.jpg" class="zoom" alt="Gallery 2">
+        <h3 class="text-center gallery-1">The blooming beautiful Bali Botanic Gardens – Bedugul</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="/assets/img/gallery3.jpg" class="zoom" alt="Gallery 1">
+        <h3 class="text-center gallery-1">The haunting graffiti art at Taman Festival Bali – Sanur</h3>
+      </div>
+
+      <div class="gallery-card">
+        <img src="/assets/img/gallery4.jpg" class="zoom" alt="Gallery 1">
+        <h3 class="text-center gallery-1">The blissful vibes of Seminyak’s best spas – Seminyak</h3>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Contact Section -->
+  <!-- </section>
   <section id="contact">
     <div class="contact-form">
-      <h2>Visit Bali</h2>
+      <h2 class="text-muted">Contact Us</h2>
       <p class="subheading text-muted">Get in Touch for Booking Inquiries</p>
       <form>
         <input type="text" placeholder="Name" class="form-input">
@@ -131,22 +173,64 @@
         <button type="submit" class="submit-button">Submit</button>
       </form>
     </div>
-  </section>
+  </section> -->
 
-  <div class="footer">
-    <small>
-      This project is coded by
-      <a href="https://esthers-portfolio-project.netlify.app/" target="_blank" rel="noopener noreferrer"> Esther Omouwho
-      </a> it is open-sourced on
-      <a href="https://github.com/Omouwho/dream-travel-destination" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
-      and hosted on
-      <a href="https://esthers-dream-destination.netlify.app/" target="_blank" rel="noopener noreferrer">
-        Netlify
-      </a>
-    </small>
-  </div>
+  <!-- Footer Section -->
+  <!-- <div class="footer">
+    
+  </div> -->
+
+  <footer>
+    <section class="grid grid-3-columns-first-narrow footer-section ">
+
+      <div>
+        <h3>More about Bali</h3>
+        <ul>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Bali" target="_blank">All about Bali</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/d/embed?mid=1YV1arpIjsDriWShdWU4cOmwh4GA&hl=en&ehbc=2E312F"
+              target="_blank">Map of Bali</a>
+          </li>
+          <li>
+            <a href="https://www.tripsavvy.com/introduction-to-transportation-in-bali-1629013" target="_blank">
+              How to get around Bali</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+
+        <h3>About Me</h3>
+        <p>
+          Hi! My name is Esther and I created this page as part of the SheCodes Dream Destination Challenge to develop
+          my
+          coding skills.
+        </p>
+      </div>
+      <div>
+        <h3>About this Website</h3>
+        <p>
+          This website was created with basic html and css.
+          <br>
+
+          This project is coded by
+          <a href="https://esthers-portfolio-project.netlify.app/" target="_blank" rel="noopener noreferrer"> Esther
+            Omouwho
+          </a> it is open-sourced on
+          <a href="https://github.com/Omouwho/dream-travel-destination" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          and hosted on
+          <a href="https://esthers-dream-destination.netlify.app/" target="_blank" rel="noopener noreferrer">
+            Netlify
+          </a>
+
+        </p>
+      </div>
+
+    </section>
+  </footer>
 
   </div>
 </body>
