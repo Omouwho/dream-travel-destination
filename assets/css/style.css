@@ -46,7 +46,7 @@ nav a {
 
 /* Hero section */
 .hero {
-  background-image: url(/assets/img/bali2.jpg);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/931/original/bali2.jpg?1682517144);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -278,7 +278,6 @@ textarea.form-input {
 
 footer {
   color: black;
-  background-color: #b6d1f2;
 }
 
 footer h3 {
