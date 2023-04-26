@@ -272,8 +272,9 @@ textarea.form-input {
 }
 
 .submit-button:hover {
-  background-color: #fff;
-  color: #4275b2;
+  color: #fff;
+  background-color: #4275b2;
+  border: 1px solid black;
 }
 
 footer {
