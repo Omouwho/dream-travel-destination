@@ -246,7 +246,7 @@ nav a {
 
 .form-input:focus {
   outline: none;
-  border-color: #ffcc00;
+  border-color: #b6d1f2;
 }
 
 .form-input::placeholder {
@@ -261,8 +261,8 @@ textarea.form-input {
   display: block;
   border: 1px solid #333;
   padding: 1rem 2rem;
-  background-color: #4275b2;
-  color: #fff;
+  background-color: #b6d1f2;
+  color: #333;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -345,6 +345,9 @@ footer a {
     flex-basis: 100%;
   }
 
+  .attraction-card h3 {
+    font-size: 23px;
+  }
   .contact-form {
     padding: 0 1rem;
   }
@@ -366,7 +369,8 @@ footer a {
 
   #attractions h2 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 27px;
+    margin-left: 23px;
   }
 
   .gallery-0 {
@@ -392,6 +396,16 @@ footer a {
     font-size: 30px;
   }
 
+  #contact {
+    padding: 3rem;
+    background-color: #fff;
+    margin-left: -18px;
+  }
+
+  .contact-form h2 {
+    font-size: 18px;
+  }
+
   nav ul {
     list-style-type: none;
     display: flex;
@@ -399,9 +413,13 @@ footer a {
     font-size: 12px;
   }
 
+  .submit-button {
+    padding: 10px 20px;
+  }
+
   .footer-section {
     max-width: 338px;
-    margin-left: 40px;
+    margin-left: 22px;
     padding: 26px;
     background-color: white;
   }
